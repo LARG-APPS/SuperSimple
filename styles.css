@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Lexend";
+  src: url(/fonts/Lexend-Regular.ttf);
+}
+@font-face {
+  font-family: "Lexend";
+  font-weight: bold;
+  src: url(/fonts/Lexend-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* border: 1px solid black; */
+
+  font-family: 'Lexend', sans-serif;
+}
+
+header {
+  height: 100vh;
+  background: #F3F0FF;
+  padding: 7%;
+  overflow: hidden;
+  max-height: 800px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  margin-bottom: 2em;
+}
+
+nav h2 {
+  display: inline-block;
+  
+  width: 100%;
+  
+  font-size: 1.7em;
+  color: #5B47FF;
+}
+
+span.colored {
+  color: #5B47FF;
+  font-weight: bold;
+}
+
+nav a {
+  transition: .1s;
+  cursor: none;
+  padding: .5em;
+  color: #5B47FF;
+  border-radius: .5em;
+}
+nav a:active {
+  cursor: none;
+  background: white;
+}
+
+header div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+header div h1 {
+  margin-bottom: .5em;
+}
+
+header div p {
+  font-size: 1em;
+  margin-bottom: 1.2em;
+}
+
+header div img {
+  width: 100%;
+  
+  border-radius: 40px;
+}
+
+main {
+  padding: 7%;
+}
+
+main section {
+  margin-top: 4%;
+  padding: 1.8em;
+  border-radius: 2em;
+  background: #F3F0FF;
+  color: #1F1A35;
+}
+
+main section article {
+  padding: .1em;
+}
+
+main h2 {
+  margin-top: .9em;
+  margin-bottom: .4em;
+}
+
+main div.card {
+  background: white;
+  
+  width: auto;
+  margin: 20px;
+  padding: 30px;
+  
+  border-style: solid;
+  border-color: #F3F0FF;
+  border-radius: 10px;
+  border-width: 2px;
+  
+  text-align: center;
+}
+
+main div.card h2 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+main div.card img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+section#our-apps {
+  background: #E1F7FF;
+  color: #222840;
+}
+
+section#contact-us {
+  background: #FFF0FA;
+  color: #2F1225;
+}
+
+section#wait-list {
+  background: #EA00D3;
+  color: #F9FFD4;
+  border: solid .1em #000;
+}
+section#wait-list button {
+  transition: all .1s;
+  background: #F1D4FF;
+  border: solid .1em #3B1F49;
+  width: 100%;
+  border-radius: 1em;
+  font-size: 1.01em;
+  font-weight: bold;
+  padding: 1.1em;
+  margin-top: 1em;
+  margin-bottom: .9em;
+  user-select: none;
+}
+section#wait-list button:active {
+  background: #6E358A;
+  color: #E5AFFF;
+}
+
+
+footer {
+  height: 45vh;
+  max-height: 350px;
+  background-color: #5B47FF;
+
+  color: #F4EDFF;
+  
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
