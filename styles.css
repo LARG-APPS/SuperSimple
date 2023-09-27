@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: "Lexend";
   src: url(/fonts/Lexend-Regular.ttf);
 }
@@ -6,7 +6,7 @@
   font-family: "Lexend";
   font-weight: bold;
   src: url(/fonts/Lexend-Bold.ttf);
-}
+}*/
 
 * {
   margin: 0;
