@@ -34,12 +34,12 @@ header nav {
   margin-bottom: 2em;
 }
 
-nav h3 {
+nav h2 {
   display: inline-block;
   
   width: 100%;
   
-  font-size: 1.7em;
+  font-size: 1.4em;
   color: #5B47FF;
 }
 
